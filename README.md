@@ -13,6 +13,29 @@ Tasked by Horiseon Marketing Agency to refactor thier website and focus on acces
 
 ## Example of some HTML code changes
 
++ ### Made changes within the \<head> element to include relevant properties
+
+ Old html code snippet
+
+``` html
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>website</title>
+    </head>
+```
+
+Updated html code snippet
+``` html
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Horiseon Marketing Agency</title>
+    </head>
+```
+
 + ### Introduced \<nav\> element to define the navigational links
 
  Old html code snippet
